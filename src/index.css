@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.Snapshot {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ui visible inverted left vertical sidebar menu {
+  width: 30px;
+}
+
+.your-linx {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.body {
+  height: 100%;
+}
+
+.logout-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.folders {
+  width: 100%;
+  height: 100%;
+}
+
+.folder-heading {
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.folder {
+  width: 100%;
+
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  background-color: rgb(1, 34, 65);
+  color: azure;
+  border-right: 5px solid rgb(1, 34, 65);
+
+  text-align: center;
+  list-style-type: none;
+}
+
+.folder:hover {
+  background-color: rgb(87, 85, 85);
+  color: rgb(0, 175, 44);
+  border-right: 5px solid rgb(0, 175, 44);
+}
+
+.body {
+  float: left;
+  height: 100%;
 }
